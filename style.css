@@ -1,0 +1,62 @@
+/* style.css - Giao diện cơ bản cho trang giới thiệu */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    background: #f4f6f9;
+    color: #222;
+    line-height: 1.6;
+    padding: 24px;
+}
+
+header {
+    background: linear-gradient(135deg, #1e88e5, #42a5f5);
+    color: #fff;
+    padding: 32px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+main section {
+    background: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+main h2 {
+    color: #1e88e5;
+    margin-bottom: 12px;
+    border-left: 4px solid #1e88e5;
+    padding-left: 10px;
+}
+
+main ul {
+    padding-left: 24px;
+}
+
+main code {
+    background: #eef2f7;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #c62828;
+    font-size: 0.95em;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 24px;
+}
